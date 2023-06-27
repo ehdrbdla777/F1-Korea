@@ -1,0 +1,1140 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>F1 Korea</title>
+
+  <!-- lodash : 스크롤을 제어할 수 있는 라이브러리 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- google fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+
+  <!-- css -->
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!-- slick css -->
+  <link rel="stylesheet" href="./css/slick.css">
+  <link rel="stylesheet" href="./css/slick-theme.css">
+
+  <!-- javascript -->
+  <script defer src="./js/jquery-1.12.3.js"></script>
+  <script defer src="./js/main.js"></script>
+  
+  <!-- slick javascript -->
+  <script defer src="./js/slick.min.js"></script>
+  <script defer src="./js/slick.js"></script>
+
+</head>
+<body>
+  <header>
+    <div class="sub-bg"></div>
+    <div class="tab-inner mo-inner">
+      <div class="tab_mo">
+        <nav class="tab-nav">
+          <div class="tab-nav-toggle">
+            <span> </span><span> </span><span> </span>
+          </div>
+        </nav>
+        <div class="my-icon">
+          <a href="#"><img src="./images/my-icon.png" alt="my-icon"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="inner tab-inner">
+      <h1>
+        <a href="./index.html"><img src="./images/header_logo.png" alt="logo"></a>
+      </h1>
+
+      <!-- 상단메뉴 - pc -->
+      <div class="sub-menu">
+        <ul class="menu">
+          <li>
+            <a href="#">
+            최신
+            <span class="material-symbols-outlined span1">
+              expand_more
+              </span>
+              
+              <ul class="recency">
+                <li class="item">
+                  <div class="recency-logo">
+                    <p class="recency-title">최신소식</p>
+                  </div>
+                  <div class="recency-box">
+                    <div class="recency-menu">
+                      <a href="#"><img src="./images/recency/recency-menu1.png" alt="recency-menu"></a>
+                      <div class="recency-text text-box">
+                        <a href="#">소식</a>
+                        <p>
+                          <a href="#">F1 TV Pro 에서 선수들의 <br>
+                            라이브 영상과 인터뷰를 <br>
+                            만나보세요!</a>
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="recency-menu">
+                      <a href="#"><img src="./images/recency/recency-menu2.png" alt="recency-menu"></a>
+                      <div class="recency-text text-box">
+                        <a href="#">소식</a>
+                        <p>
+                          <a href="#">F1 TV Pro 에서 선수들의 <br>
+                            라이브 영상과 인터뷰를 <br>
+                            만나보세요!</a>
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="recency-menu">
+                      <a href="#"><img src="./images/recency/recency-menu3.png" alt="recency-menu"></a>
+                      <div class="recency-text text-box">
+                        <a href="#">소식</a>
+                        <p>
+                          <a href="#">F1 TV Pro 에서 선수들의 <br>
+                            라이브 영상과 인터뷰를 <br>
+                            만나보세요!</a>
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="recency-menu">
+                      <a href="#"><img src="./images/recency/recency-menu4.png" alt="recency-menu"></a>
+                      <div class="recency-text text-box">
+                        <a href="#">소식</a>
+                        <p>
+                          <a href="#">F1 TV Pro 에서 선수들의 <br>
+                            라이브 영상과 인터뷰를 <br>
+                            만나보세요!</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+            일정
+            <span class="material-symbols-outlined span1">
+              expand_more
+              </span>
+
+            <ul class="schedule">
+              <li class="item">
+                <div class="schedule-box">
+                    <div class="schedule-menu schedule-line">
+                      <div class="prev-logo logo">
+                        <p>이전경기</p>
+                      </div>
+                      <a href="#"><img src="./images/schedule/schedule-menu1.png" alt="schedule-menu"></a>
+                      <div class="schedule-text text-box">
+                        <p><a href="#">포뮬러 1 그랑프리 드 모나코 2023</a></p>
+                        <p><a href="#" class="date">5월 26 - 28일</a></p>
+                        <span class="material-symbols-outlined">
+                          arrow_forward_ios
+                        </span>
+                      </div>
+                    </div>
+                      
+                    <div class="schedule-menu schedule-line">
+                      <div class="next-logo logo">
+                        <p>다음경기</p>
+                      </div>
+                      <a href="#"><img src="./images/schedule/schedule-menu2.png" alt="schedule-menu"></a>
+                      <div class="schedule-text text-box">
+                        <p><a href="#">포뮬러 1 AWS GRAN PREMIO <br>
+                          DEESPANA 2023</a></p>
+                        <p><a href="#">6월 02 - 04일</a></p>
+                        <span class="material-symbols-outlined span2">
+                          arrow_forward_ios
+                          </span>
+                      </div>
+                    </div>
+
+                    <div class="schedule-menu schedule-line2">
+                      <div class="oncoming-logo logo">
+                        <p>다가오는 경기</p>
+                      </div>
+                      <a href="#"><img src="./images/schedule/schedule-menu3.png" alt="schedule-menu"></a>
+                      <div class="schedule-text text-box">
+                        <p><a href="#">포뮬러 1 피렐리 그랑프리 뒤 <br>
+                          캐나다 2023</a></p>
+                        <p><a href="#">6월 16 - 18일</a></p>
+                        <span class="material-symbols-outlined span2">
+                          arrow_forward_ios
+                          </span>
+                      </div>
+                    </div>
+
+                    <div class="schedule-menu schedule-line2">
+                      <div class="oncoming-logo1 logo">
+                        <p>다가오는 경기</p>
+                      </div>
+                      <a href="#"><img src="./images/schedule/schedule-menu4.png" alt="schedule-menu"></a>
+                      <div class="schedule-text text-box">
+                        <p><a href="#">2023년 포뮬러 1 그로스 <br>
+                          프레이즈 폰외스터라이히</a></p>
+                        <p><a href="#">6월 30일 ~ 7월 2일</a></p>
+                        <span class="material-symbols-outlined span2">
+                          arrow_forward_ios
+                          </span>
+                      </div>
+                    </div>
+                </div>
+              </li>
+              </ul>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+            결과
+            <span class="material-symbols-outlined span1">
+              expand_more
+              </span>
+
+              <ul class="result">
+                <li class="item">
+                  <div class="result-box">
+                    <div class="result-area">
+                      <div class="result-menu text-box">
+                        <p><a href="#">2023 시즌</a></p>
+                        <span class="material-symbols-outlined">
+                          arrow_forward_ios
+                          </span>
+                      </div>
+                      <div class="result-menu text-box">
+                        <p><a href="#">드라이버 순위</a></p>
+                        <span class="material-symbols-outlined">
+                          arrow_forward_ios
+                          </span>
+                      </div>
+                      <div class="result-menu text-box">
+                        <p><a href="#">팀 순위</a></p>
+                        <span class="material-symbols-outlined">
+                          arrow_forward_ios
+                          </span>
+                      </div>
+                      <div class="result-menu text-box">
+                        <p><a href="#">아카이브 1950 - 2022</a></p>
+                        <span class="material-symbols-outlined">
+                          arrow_forward_ios
+                          </span>
+                      </div>
+                      <div class="result-menu text-box">
+                        <p><a href="#">F1 어워드</a></p>
+                        <span class="material-symbols-outlined">
+                          arrow_forward_ios
+                          </span>
+                      </div>
+                    </div>
+
+                  </div>
+                </li>
+              </ul>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+            드라이버
+            <span class="material-symbols-outlined span1">
+              expand_more
+              </span>
+            </a>
+
+            <ul class="driver">
+              <li class="item">
+                <div class="driver-box">
+                    <div class="driver-menu text-box">
+                      <div class="driver-boxs color-box1"></div>
+                      <p><a href="#">알렉산더 알본</a></p>
+                      <span class="material-symbols-outlined">
+                        arrow_forward_ios
+                        </span>
+                    </div>
+
+                    <div class="driver-menu text-box">
+                      <div class="driver-boxs color-box2"></div>
+                      <p><a href="#">루이스 해밀턴</a></p>
+                      <span class="material-symbols-outlined">
+                        arrow_forward_ios
+                        </span>
+                    </div>
+
+                    <div class="driver-menu text-box">
+                      <div class="driver-boxs color-box3"></div>
+                      <p><a href="#">에스테반 오콘</a></p>
+                      <span class="material-symbols-outlined">
+                        arrow_forward_ios
+                        </span>
+                    </div>
+
+                    <div class="driver-menu text-box">
+                      <div class="driver-boxs color-box4"></div>
+                      <p><a href="#">로건 사전트</a></p>
+                      <span class="material-symbols-outlined">
+                        arrow_forward_ios
+                        </span>
+                    </div>
+
+                    <div class="driver-menu text-box">
+                      <div class="driver-boxs color-box5"></div>
+                      <p><a href="#">페르난도 알론소</a></p>
+                      <span class="material-symbols-outlined">
+                        arrow_forward_ios
+                        </span>
+                    </div>
+
+                    <div class="driver-menu text-box">
+                      <div class="driver-boxs color-box6"></div>
+                      <p><a href="#">니코 홀켄버그</a></p>
+                      <span class="material-symbols-outlined">
+                        arrow_forward_ios
+                        </span>
+                    </div>
+
+                    <div class="driver-menu text-box">
+                      <div class="driver-boxs color-box7"></div>
+                      <p><a href="#">세르지오 페레즈</a></p>
+                      <span class="material-symbols-outlined">
+                        arrow_forward_ios
+                        </span>
+                    </div>
+
+                    <div class="driver-menu text-box">
+                      <div class="driver-boxs color-box8"></div>
+                      <p><a href="#">랜스 스트롤</a></p>
+                      <span class="material-symbols-outlined">
+                        arrow_forward_ios
+                        </span>
+                    </div>
+
+                    <div class="driver-menu text-box">
+                      <div class="driver-boxs color-box9"></div>
+                      <p><a href="#">발테리 보 타스</a></p>
+                      <span class="material-symbols-outlined">
+                        arrow_forward_ios
+                        </span>
+                    </div>
+
+                    <div class="driver-menu text-box">
+                      <div class="driver-boxs color-box10"></div>
+                      <p><a href="#">찰스 르클레르</a></p>
+                      <span class="material-symbols-outlined">
+                        arrow_forward_ios
+                        </span>
+                    </div>
+
+                    <div class="driver-menu text-box">
+                      <div class="driver-boxs color-box11"></div>
+                      <p><a href="#">오스카 피아스트리</a></p>
+                      <span class="material-symbols-outlined">
+                        arrow_forward_ios
+                        </span>
+                    </div>
+
+                    <div class="driver-menu text-box">
+                      <div class="driver-boxs color-box12"></div>
+                      <p><a href="#">츠 노다 유키</a></p>
+                      <span class="material-symbols-outlined">
+                        arrow_forward_ios
+                        </span>
+                    </div>
+
+                    <div class="driver-menu text-box">
+                      <div class="driver-boxs color-box13"></div>
+                      <p><a href="#">닉 드 브리스</a></p>
+                      <span class="material-symbols-outlined">
+                        arrow_forward_ios
+                        </span>
+                    </div>
+
+                    <div class="driver-menu text-box">
+                      <div class="driver-boxs color-box14"></div>
+                      <p><a href="#">케빈 마그누센</a></p>
+                      <span class="material-symbols-outlined">
+                        arrow_forward_ios
+                        </span>
+                    </div>
+
+                    <div class="driver-menu text-box">
+                      <div class="driver-boxs color-box15"></div>
+                      <p><a href="#">조지 러셀</a></p>
+                      <span class="material-symbols-outlined">
+                        arrow_forward_ios
+                        </span>
+                    </div>
+
+                    <div class="driver-menu text-box">
+                      <div class="driver-boxs color-box16"></div>
+                      <p><a href="#">막스 베르스타펜</a></p>
+                      <span class="material-symbols-outlined">
+                        arrow_forward_ios
+                        </span>
+                    </div>
+
+                    <div class="driver-menu text-box">
+                      <div class="driver-boxs color-box17"></div>
+                      <p><a href="#">피에르 가슬리</a></p>
+                      <span class="material-symbols-outlined">
+                        arrow_forward_ios
+                        </span>
+                    </div>
+
+                    <div class="driver-menu text-box">
+                      <div class="driver-boxs color-box18"></div>
+                      <p><a href="#">랜도 노리스</a></p>
+                      <span class="material-symbols-outlined">
+                        arrow_forward_ios
+                        </span>
+                    </div>
+
+                    <div class="driver-menu text-box">
+                      <div class="driver-boxs color-box19"></div>
+                      <p><a href="#">카를로스 사인즈</a></p>
+                      <span class="material-symbols-outlined">
+                        arrow_forward_ios
+                        </span>
+                    </div>
+
+                    <div class="driver-menu text-box">
+                      <div class="driver-boxs color-box20"></div>
+                      <p><a href="#">저우 관우</a></p>
+                      <span class="material-symbols-outlined">
+                        arrow_forward_ios
+                        </span>
+                    </div>
+                </div>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#">
+            팀
+            <span class="material-symbols-outlined span1">
+              expand_more
+              </span>
+            </a>
+
+            <ul class="team">
+              <li class="item">
+                <div class="team-box">
+                  <div class="team-box">
+                    <div class="team-content">
+                      <div class="team-menu text-box">
+                        <p><a href="#">알파 로메오</a></p>
+                        <span class="material-symbols-outlined">
+                          arrow_forward_ios
+                          </span>
+                        <a href="#"><img src="images/teams/team-menu1.png" alt="team-menu"></a>
+                      </div>
+                      <div class="team-menu text-box">
+                        <p><a href="#">에스턴 마틴</a></p>
+                        <span class="material-symbols-outlined">
+                          arrow_forward_ios
+                          </span>
+                        <a href="#"><img src="images/teams/team-menu2.png" alt="team-menu"></a>
+                      </div>
+                      <div class="team-menu text-box">
+                        <p><a href="#">멕라렌</a></p>
+                        <span class="material-symbols-outlined">
+                          arrow_forward_ios
+                          </span>
+                        <a href="#"><img src="images/teams/team-menu3.png" alt="team-menu"></a>
+                      </div>
+                      <div class="team-menu text-box">
+                        <p><a href="#">윌리엄스</a></p>
+                        <span class="material-symbols-outlined">
+                          arrow_forward_ios
+                          </span>
+                        <a href="#"><img src="images/teams/team-menu4.png" alt="team-menu"></a>
+                      </div>
+                    </div>
+    
+                    <div class="team-content team-size">
+                      <div class="team-menu text-box">
+                        <p><a href="#">알파 타우리</a></p>
+                        <span class="material-symbols-outlined">
+                          arrow_forward_ios
+                          </span>
+                        <a href="#"><img src="images/teams/team-menu5.png" alt="team-menu"></a>
+                      </div>
+                      <div class="team-menu text-box">
+                        <p><a href="#">페라리</a></p>
+                        <span class="material-symbols-outlined">
+                          arrow_forward_ios
+                          </span>
+                        <a href="#"><img src="images/teams/team-menu6.png" alt="team-menu"></a>
+                      </div>
+                      <div class="team-menu text-box">
+                        <p><a href="#">메르세데스</a></p>
+                        <span class="material-symbols-outlined">
+                          arrow_forward_ios
+                          </span>
+                        <a href="#"><img src="images/teams/team-menu7.png" alt="team-menu"></a>
+                      </div>
+                    </div>
+    
+                    <div class="team-content team-size">
+                      <div class="team-menu text-box">
+                        <p><a href="#">알파인</a></p>
+                        <span class="material-symbols-outlined">
+                          arrow_forward_ios
+                          </span>
+                        <a href="#"><img src="images/teams/team-menu8.png" alt="team-menu"></a>
+                      </div>
+                      <div class="team-menu text-box">
+                        <p><a href="#">하스</a></p>
+                        <span class="material-symbols-outlined">
+                          arrow_forward_ios
+                          </span>
+                        <a href="#"><img src="images/teams/team-menu9.png" alt="team-menu"></a>
+                      </div>
+                      <div class="team-menu text-box">
+                        <p><a href="#">레드 불</a></p>
+                        <span class="material-symbols-outlined">
+                          arrow_forward_ios
+                          </span>
+                        <a href="#"><img src="images/teams/team-menu10.png" alt="team-menu"></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <!-- 로그인 회원가입 -->
+        <div class="my">
+          <div class="login">
+            <a href="#">로그인</a>
+          </div>
+          <div class="join">
+            <a href="#">회원가입</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- 상단메뉴 - tab / mo -->
+  <div class="tab_sub-menu">
+    <div class="tab-inner mo-inner">
+      <ul class="menu">
+        <li class="item">
+          <div class="tab-recency">
+            <div class="tab-recency-menu text-box">
+              <p>최신</p>
+              <span class="material-symbols-outlined span1">
+                expand_more
+                </span>
+            </div>
+            <div class="tab-recency-menu text-box">
+              <p>일정</p>
+              <span class="material-symbols-outlined span1">
+                expand_more
+                </span>
+            </div>
+            <div class="tab-recency-menu text-box">
+              <p>결과</p>
+              <span class="material-symbols-outlined span1">
+                expand_more
+                </span>
+            </div>
+            <div class="tab-recency-menu text-box">
+              <p>드라이버</p>
+              <span class="material-symbols-outlined span1">
+                expand_more
+                </span>
+            </div>
+            <div class="tab-recency-menu text-box">
+              <p>팀</p>
+              <span class="material-symbols-outlined span1">
+                expand_more
+                </span>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <div class="tab_my">
+        <div class="tab-login">
+          <img src="./images/my-icon.png" alt="my-icon">
+          <p>로그인</p>
+        </div>
+        <div class="tab-join">
+          <p>회원가입</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- fade in/out slide -->
+  <section class="fade-in_out">
+    <h2 class="hidden">페이드 인 아웃 영역</h2>
+    <div class="inner inner4">
+      <div class="fade">
+        <ul>
+          <li>
+            <a href="#"><img src="./images/fade-in_out/fade_in_out1.png" alt="fade-in_out"></a>
+          </li>
+          <li>
+            <a href="#"><img src="./images/fade-in_out/fade_in_out2.png" alt="fade-in_out"></a>
+          </li>
+          <li>
+            <a href="#"><img src="./images/fade-in_out/fade_in_out3.png" alt="fade-in_out"></a>
+          </li>
+          <li>
+            <a href="#"><img src="./images/fade-in_out/fade_in_out4.png" alt="fade-in_out"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- slick slide -->
+  <section class="slick-slides">
+    <h2 class="hidden">슬릭 슬라이드 영역</h2>
+    <div class="inner4">
+      <div class="image-slider">
+        <div><a href="#"><img src="./images/slick_slide/Red-Bull_slide1.png" alt="slick-slide"></a></div>
+        <div><a href="#"><img src="./images/slick_slide/Aston-Martin_slider2.png" alt="slick-slide"></a></div>
+        <div><a href="#"><img src="./images/slick_slide/Mercedes_slide3.png" alt="slick-slide"></a></div>
+        <div><a href="#"><img src="./images/slick_slide/Ferrari_slide4.png" alt="slick-slide"></a></div>
+        <div><a href="#"><img src="./images/slick_slide/Alpine_slide5.png" alt="slick-slide"></a></div>
+        <div><a href="#"><img src="./images/slick_slide/Mclaren_slide6.png" alt="slick-slide"></a></div>
+        <div><a href="#"><img src="./images/slick_slide/Hass_slide7.png" alt="slick-slide"></a></div>
+        <div><a href="#"><img src="./images/slick_slide/Alfa-Romeo_slide8.png" alt="slick-slide"></a></div>
+        <div><a href="#"><img src="./images/slick_slide/AlphaTauri_slide9.png" alt="slick-slide"></a></div>
+        <div><a href="#"><img src="./images/slick_slide/Williams_slide10.png" alt="slick-slide"></a></div>
+    </div>
+  </section>
+
+
+  <!-- banner 1 -->
+  <section class="banner1">
+    <div class="inner tab-inner mo-inner">
+      <h2 class="hidden">배너 영역1</h2>
+      <a href="#"><img src="./images/banner/banner1.png" alt="banner"></a>
+    </div>
+  </section>
+
+
+  <!-- notice -->
+  <section class="notice">
+    <div class="notice-area">
+      <div class="inner tab-inner mo-inner">
+        <h2>최신 뉴스</h2>
+        <div class="notice-img">
+          <div class="notice-content">
+            <a href="#"><img src="./images/notice/notice_img1.png" alt="notice"></a>
+            <div class="notice-text">
+              <a href="#">소식</a>
+              <a href="#">F1 TV Pro에서 선수들의 라이브 영상과 <br> 
+                인터뷰를 만나보세요!</a>
+            </div>
+          </div>
+          <div class="notice-content">
+            <a href="#"><img src="./images/notice/notice_img2.png" alt="notice"></a>
+            <div class="notice-text">
+              <a href="#">소식</a>
+              <a href="#">2023년 모나코 그랑프리! 
+                몇 시이며 <br> 어떻게 볼 수 있는지
+                눌러서 확인 <br> 해보세요!</a>
+            </div>
+          </div>
+          <div class="notice-content">
+            <a href="#"><img src="./images/notice/notice_img3.png" alt="notice"></a>
+            <div class="notice-text">
+              <a href="#">소식</a>
+              <a href="#">2023년 모나코 그랑프리를 위해 팀과 <br>
+                드라이버는 어떤 타이어를 사용했을지 <br>
+                확인해보세요!</a>
+            </div>
+          </div>
+          <div class="btn">
+            <a href="#">더보기</a>
+            <span class="material-symbols-outlined">
+              arrow_forward_ios
+              </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- tab menu -->
+  <div class="tab-menu">
+    <div class="inner tab-inner mo-inner">
+      <ul class="list">
+        <li class="is_on">
+          <div class="left-box">
+            <a href="#driver-tab-content" class="tab-btn toggleButton">DEIVER</a>
+          </div>
+        </li>
+        <div class="center-line"></div>
+        <li class="is_on">
+          <div class="right-box">
+            <a href="#constructor-tab-content" class="tab-btn toggleButton">CONSTRUCTOR</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+
+  <!-- Ranking -->
+  <section class="ranking">
+    <div id="driver-tab-content" class="cont">
+      <div class="ranking-bg"></div>
+      <div class="inner tab-inner mo-inner">
+      <!-- Driver Ranking -->
+        <div class="top-driver-ranking">
+          <h2>Driver Ranking</h2>
+          <div class="player-ranking-img">
+            <a href="#"><img src="./images/player/player1.png" alt="plyer_ranking"></a>
+            <a href="#"><img src="./images/player/player2.png" alt="plyer_ranking"></a>
+            <a href="#"><img src="./images/player/player3.png" alt="plyer_ranking"></a>
+          </div>
+        </div>
+        <div class="driver-ranking-all">
+          <div class="driver-ranking">
+            <p class="number">1</p>
+            <div class="number-box color1"></div>
+            <div class="name">
+              <p>Max</p>
+              <p>VERSTAPPEN</p>
+              <p>Red Bull Racing</p>
+            </div>
+            <div class="point">
+              <p>114 PTS</p>
+            </div>
+            <span class="material-symbols-outlined">
+              arrow_forward_ios
+              </span>
+          </div>
+          <div class="driver-ranking">
+            <p class="number">2</p>
+            <div class="number-box color2"></div>
+            <div class="name">
+              <p>Sergio</p>
+              <p>PEREZ</p>
+              <p>Red Bull Racing</p>
+            </div>
+            <div class="point">
+              <p>105 PTS</p>
+            </div>
+            <span class="material-symbols-outlined">
+              arrow_forward_ios
+              </span>
+          </div>
+          <div class="driver-ranking">
+            <p class="number">3</p>
+            <div class="number-box color3"></div>
+            <div class="name">
+              <p>Fernando</p>
+              <p>ALONSO</p>
+              <p>Aston Martin</p>
+            </div>
+            <div class="point">
+              <p>93 PTS</p>
+            </div>
+            <span class="material-symbols-outlined">
+              arrow_forward_ios
+              </span>
+          </div>
+          <div class="driver-ranking">
+            <p class="number">4</p>
+            <div class="number-box color4"></div>
+            <div class="name">
+              <p>Lewis</p>
+              <p>HAMILTON</p>
+              <p>Mercedes</p>
+            </div>
+            <div class="point">
+              <p>69 PTS</p>
+            </div>
+            <span class="material-symbols-outlined">
+              arrow_forward_ios
+              </span>
+          </div>
+          <div class="driver-ranking">
+            <p class="number">5</p>
+            <div class="number-box color5"></div>
+            <div class="name">
+              <p>Carlos</p>
+              <p>SAINZ</p>
+              <p>Ferrari</p>
+            </div>
+            <div class="point">
+              <p>50 PTS</p>
+            </div>
+            <span class="material-symbols-outlined">
+              arrow_forward_ios
+              </span>
+          </div>
+          <div class="driver-ranking">
+            <p class="number">6</p>
+            <div class="number-box color6"></div>
+            <div class="name">
+              <p>George</p>
+              <p>RUSSELL</p>
+              <p>Mercedes</p>
+            </div>
+            <div class="point">
+              <p>114 PTS</p>
+            </div>
+            <span class="material-symbols-outlined">
+              arrow_forward_ios
+              </span>
+          </div>
+          <div class="driver-ranking">
+            <p class="number">7</p>
+            <div class="number-box color7"></div>
+            <div class="name">
+              <p>Charles</p>
+              <p>LECLERC</p>
+              <p>Ferrari</p>
+            </div>
+            <div class="point">
+              <p>42 PTS</p>
+            </div>
+            <span class="material-symbols-outlined">
+              arrow_forward_ios
+              </span>
+          </div>
+          <div class="driver-ranking">
+            <p class="number">8</p>
+            <div class="number-box color8"></div>
+            <div class="name">
+              <p>Lance</p>
+              <p>STROLL</p>
+              <p>Aston Martin</p>
+            </div>
+            <div class="point">
+              <p>27 PTS</p>
+            </div>
+            <span class="material-symbols-outlined">
+              arrow_forward_ios
+              </span>
+          </div>
+          <div class="driver-ranking">
+            <p class="number">9</p>
+            <div class="number-box color9"></div>
+            <div class="name">
+              <p>Lando</p>
+              <p>NORRIS</p>
+              <p>McLaren</p>
+            </div>
+            <div class="point">
+              <p>21 PTS</p>
+            </div>
+            <span class="material-symbols-outlined">
+              arrow_forward_ios
+              </span>
+          </div>
+          <div class="driver-ranking">
+            <p class="number">10</p>
+            <div class="number-box color10"></div>
+            <div class="name name10">
+              <p>Pierre</p>
+              <p>GASLY</p>
+              <p>Alpine</p>
+            </div>
+            <div class="point">
+              <p>14 PTS</p>
+            </div>
+            <span class="material-symbols-outlined">
+              arrow_forward_ios
+              </span>
+          </div>
+        </div>
+        <div class="entire-btn1">
+          <button class="entire">
+            <a href="#">전체순위 보기</a>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Constructor Ranking -->
+    <div class="constructor">
+      <div id="constructor-tab-content" class="cont">
+        <div class="ranking-bg"></div>
+        <div class="inner tab-inner mo-inner">
+          <div class="constructor-logo">
+            <h2>Constructor Ranking</h2>
+          </div>
+          <div class="car-ranking-img">
+            <a href="#"><img src="./images/car_ranking/car-ranking1.png" alt="car_ranking"></a>
+            <a href="#"><img src="./images/car_ranking/car-ranking2.png" alt="car_ranking"></a>
+            <a href="#"><img src="./images/car_ranking/car-ranking3.png" alt="car_ranking"></a>
+          </div>
+          <div class="car-ranking-all">
+            <div class="car-ranking">
+              <p class="number">1</p>
+              <div class="number-box color11"></div>
+              <div class="name">
+                <p>RED BULL RACING</p>
+                <p>Verstappen / Perez</p>
+              </div>
+              <a href="#"><img src="./images/Constructor_ranking/Constructor_ranking1.gif" alt="constructor-ranking"></a>
+              <div class="point">
+                <p>249 PTS</p>
+              </div>
+              <span class="material-symbols-outlined">
+                arrow_forward_ios
+                </span>
+            </div>
+            <div class="car-ranking">
+              <p class="number">2</p>
+              <div class="number-box color12"></div>
+              <div class="name">
+                <p>ASTON MARTIN</p>
+                <p>Alonso / Stroll</p>
+              </div>
+              <a href="#"><img src="./images/Constructor_ranking/Constructor_ranking2.gif" alt="constructor-ranking"></a>
+              <div class="point">
+                <p>120 PTS</p>
+              </div>
+              <span class="material-symbols-outlined">
+                arrow_forward_ios
+                </span>
+            </div>
+            <div class="car-ranking">
+              <p class="number">3</p>
+              <div class="number-box color13"></div>
+              <div class="name">
+                <p>MERCEDES</p>
+                <p>Hamilton / Russell</p>
+              </div>
+              <a href="#"><img src="./images/Constructor_ranking/Constructor_ranking3.gif" alt="constructor-ranking"></a>
+              <div class="point">
+                <p>119 PTS</p>
+              </div>
+              <span class="material-symbols-outlined">
+                arrow_forward_ios
+                </span>
+            </div>
+            <div class="car-ranking">
+              <p class="number">4</p>
+              <div class="number-box color14"></div>
+              <div class="name">
+                <p>FERRARI</p>
+                <p>Lecierc / Sainz</p>
+              </div>
+              <a href="#"><img src="./images/Constructor_ranking/Constructor_ranking4.gif" alt="constructor-ranking"></a>
+              <div class="point">
+                <p>90 PTS</p>
+              </div>
+              <span class="material-symbols-outlined">
+                arrow_forward_ios
+                </span>
+            </div>
+            <div class="car-ranking">
+              <p class="number">5</p>
+              <div class="number-box color15"></div>
+              <div class="name">
+                <p>ALPINE</p>
+                <p>Gasly / Ocon</p>
+              </div>
+              <a href="#"><img src="./images/Constructor_ranking/Constructor_ranking5.gif" alt="constructor-ranking"></a>
+              <div class="point">
+                <p>35 PTS</p>
+              </div>
+              <span class="material-symbols-outlined">
+                arrow_forward_ios
+                </span>
+            </div>
+            <div class="car-ranking">
+              <p class="number">6</p>
+              <div class="number-box color16"></div>
+              <div class="name">
+                <p>MCLAREN</p>
+                <p>Norris / Piastri</p>
+              </div>
+              <a href="#"><img src="./images/Constructor_ranking/Constructor_ranking6.gif" alt="constructor-ranking"></a>
+              <div class="point">
+                <p>17 PTS</p>
+              </div>
+              <span class="material-symbols-outlined">
+                arrow_forward_ios
+                </span>
+            </div>
+            <div class="car-ranking">
+              <p class="number">7</p>
+              <div class="number-box color17"></div>
+              <div class="name">
+                <p>HAAS</p>
+                <p>Magnussen / Hulkenberg</p>
+              </div>
+              <a href="#"><img src="./images/Constructor_ranking/Constructor_ranking7.gif" alt="constructor-ranking"></a>
+              <div class="point">
+                <p>8 PTS</p>
+              </div>
+              <span class="material-symbols-outlined">
+                arrow_forward_ios
+                </span>
+            </div>
+            <div class="car-ranking">
+              <p class="number">8</p>
+              <div class="number-box color18"></div>
+              <div class="name">
+                <p>ALFA ROMEO</p>
+                <p>Bottas / Zhou</p>
+              </div>
+              <a href="#"><img src="./images/Constructor_ranking/Constructor_ranking8.gif" alt="constructor-ranking"></a>
+              <div class="point">
+                <p>6 PTS</p>
+              </div>
+              <span class="material-symbols-outlined">
+                arrow_forward_ios
+                </span>
+            </div>
+            <div class="car-ranking">
+              <p class="number">9</p>
+              <div class="number-box color19"></div>
+              <div class="name">
+                <p>ALPHATAURI</p>
+                <p>Tsunoda / De Vries</p>
+              </div>
+              <a href="#"><img src="./images/Constructor_ranking/Constructor_ranking9.gif" alt="constructor-ranking"></a>
+              <div class="point">
+                <p>2 PTS</p>
+              </div>
+              <span class="material-symbols-outlined">
+                arrow_forward_ios
+                </span>
+            </div>
+            <div class="car-ranking">
+              <p class="number">10</p>
+              <div class="number-box color20"></div>
+              <div class="name name10">
+                <p>WILLIAMS</p>
+                <p>Albon / Sargeant</p>
+              </div>
+              <a href="#" class="ranking10"><img src="./images/Constructor_ranking/Constructor_ranking10.gif" alt="constructor-ranking"></a>
+              <div class="point">
+                <p>1 PTS</p>
+              </div>
+              <span class="material-symbols-outlined">
+                arrow_forward_ios
+                </span>
+            </div>
+          </div>
+      </div>
+      <div class="entire-btn2">
+        <button class="entire">
+          <a href="#">전체순위 보기</a>
+        </button>
+      </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- banner2 -->
+  <section class="banner2">
+    <div class="inner">
+      <h2 class="hidden">배너 영역2</h2>
+      <a href="#"><img src="./images/banner/banner2.png" alt="banner"></a>
+    </div>
+  </section>
+
+
+  <!-- footer -->
+  <footer>
+    <div class="top-footer">
+      <div class="inner tab-inner mo-inner">
+        <div class="download">
+          <p>공식 F1 앱 다운로드</p>
+        </div>
+        <div class="google-play">
+          <a href="#"><img src="./images/download/google-play.png" alt="google-play"></a>
+        </div>
+        <div class="app-store">
+          <a href="#"><img src="./images/download/app-store.png" alt="app-store"></a>
+        </div>
+        <div class="sns">
+          <a href="#"><img src="./images/sns/facebook-icon.png" alt="facebook-icon"></a>
+          <a href="#"><img src="./images/sns/instagram-icon.png" alt="instagram-icon"></a>
+          <a href="#"><img src="./images/sns/youtube-icon.png" alt="youtube-icon"></a>
+          <a href="#"><img src="./images/sns/twitter-icon.png" alt="twitter-icon"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="mo-sns-bg">
+      <div class="sns mo-sns">
+        <a href="#"><img src="./images/sns/facebook-icon.png" alt="facebook-icon"></a>
+        <a href="#"><img src="./images/sns/instagram-icon.png" alt="instagram-icon"></a>
+        <a href="#"><img src="./images/sns/youtube-icon.png" alt="youtube-icon"></a>
+        <a href="#"><img src="./images/sns/twitter-icon.png" alt="twitter-icon"></a>
+      </div>
+    </div>
+
+    <div class="bottom-footer">
+      <div class="inner tab-inner mo-inner">
+        <div class="footer-ptr">
+          <a href="#"><img src="./images/footer-ptr.png" alt="footer-ptr"></a>
+        </div>
+        <div class="icons icons1">
+          <!-- icon 1층 -->
+          <a href="#"><img src="./images/icons/footer-icon1.png" alt="icons"></a>
+          <a href="#"><img src="./images/icons/footer-icon2.png" alt="icons"></a>
+          <a href="#"><img src="./images/icons/footer-icon3.png" alt="icons"></a>
+          <a href="#"><img src="./images/icons/footer-icon4.png" alt="icons"></a>
+          <a href="#"><img src="./images/icons/footer-icon5.png" alt="icons"></a>
+          <a href="#"><img src="./images/icons/footer-icon6.png" alt="icons"></a>
+          <a href="#"><img src="./images/icons/footer-icon7.png" alt="icons"></a>
+          <a href="#"><img src="./images/icons/footer-icon8.png" alt="icons"></a>
+          <a href="#"><img src="./images/icons/footer-icon9.png" alt="icons"></a>
+          <a href="#"><img src="./images/icons/footer-icon10.png" alt="icons"></a>
+        </div>
+        <tr>
+        <div class="icons icons2">
+          <!-- icon 2층 -->
+          <a href="#"><img src="./images/icons/footer-icon11.png" alt="icons"></a>
+          <a href="#"><img src="./images/icons/footer-icon12.png" alt="icons"></a>
+          <a href="#"><img src="./images/icons/footer-icon13.png" alt="icons"></a>
+          <a href="#"><img src="./images/icons/footer-icon14.png" alt="icons"></a>
+        </div>
+        <div class="icons icons3">
+          <!-- icon 3층 -->
+          <a href="#"><img src="./images/icons/footer-icon15.png" alt="icons"></a>
+          <a href="#"><img src="./images/icons/footer-icon16.png" alt="icons"></a>
+          <a href="#"><img src="./images/icons/footer-icon17.png" alt="icons"></a>
+          <a href="#"><img src="./images/icons/footer-icon18.png" alt="icons"></a>
+          <a href="#"><img src="./images/icons/footer-icon19.png" alt="icons"></a>
+          <a href="#"><img src="./images/icons/footer-icon20.png" alt="icons"></a>
+        </div>
+        <div class="logo_add">
+          <h1>
+            <a href="index.html"><img src="./images/footer-logo.png" alt="footer-logo"></a>
+          </h1>
+
+          <address>
+            © 2003-2023 Formula One World Championship Limited
+          </address>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html> 

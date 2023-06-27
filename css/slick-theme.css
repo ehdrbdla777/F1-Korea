@@ -1,0 +1,227 @@
+@charset 'UTF-8';
+/* Slider */
+.slick-loading .slick-list
+{
+    background: #fff url('./ajax-loader.gif') center center no-repeat;
+}
+
+/* Icons */
+@font-face
+{
+    font-family: 'slick';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('./fonts/slick.eot');
+    src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg');
+}
+/*slick-theme에서 Arrows에서 수정할 부분*/
+
+.slick-prev,
+.slick-next {
+	position: absolute;
+	line-height: 0;
+	top: 50%;
+	width: 100px;
+	height: 100px;
+	display: block;
+	padding: 0;
+	-webkit-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+	cursor: pointer;
+	color: transparent;
+	border: none;
+	outline: none;
+	border-radius: 50px;
+	background: transparent;
+	/*background: #043e46;*/
+    border: 1px solid #fff;
+}
+
+.slick-slider {
+	user-select: none;
+}
+
+.slick-next {
+	left: 600px;
+    top: 150px;
+	z-index: 99;
+}
+
+.slick-prev {
+	left: 450px;
+    top: 150px;
+	z-index: 99;
+}
+
+.slick-next:before {
+	background: url(../images/next-btn.png) no-repeat center;
+	content: '';
+	font-size: 1.250em;
+	font-weight: 1000;
+    padding-left: 22px;
+    margin-left: 22px;
+	text-align: center;
+	/*color: white;*/
+}
+
+.slick-prev:before {
+	background: url(../images/prev-btn.png) no-repeat center;
+	content: '';
+	font-size: 1.250em;
+	font-weight: 1000;
+	padding-left: 22px;
+	margin-left: 38px;
+	/*color: white;*/
+	text-align: center;
+
+}
+
+/* Dots */
+.slick-dotted.slick-slider
+{
+    margin-bottom: 30px;
+}
+
+.slick-dots
+{
+    position: absolute;
+    bottom: -25px;
+
+    display: block;
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+
+    text-align: center;
+}
+.slick-dots li
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+
+    cursor: pointer;
+}
+.slick-dots li button
+{
+    font-size: 0;
+    line-height: 0;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+
+    cursor: pointer;
+
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus
+{
+    outline: none;
+}
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before
+{
+    opacity: 1;
+}
+.slick-dots li button:before
+{
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    content: '•';
+    text-align: center;
+
+    opacity: .25;
+    color: black;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before
+{
+    opacity: .75;
+    color: black;
+}
+
+@media all and (max-width : 768px){
+    .slick-prev,
+    .slick-next {
+	width: 45px;
+	height: 45px;
+}
+    .slick-next {
+        left: 130px;
+        top: 60px;
+        z-index: 99;
+    }
+    
+    .slick-prev {
+        left: 70px;
+        top: 60px;
+        z-index: 99;
+    }
+
+    .slick-next:before {
+        padding-left: 22px;
+        margin-left: 9px;
+    }
+    .slick-prev:before {
+        padding-left: 22px;
+        margin-left: 13px;
+    }
+}
+
+@media all and (max-width : 368px) {
+    .slick-prev,
+    .slick-next {
+        width: 25px;
+        height: 25px;
+    }
+
+    .slick-next {
+        left: 110px;
+        top: 60px;
+    }
+    
+    .slick-prev {
+        left: 70px;
+        top: 60px;
+    }
+
+    .slick-next:before {
+        font-weight: normal;
+        font-size: 0.313em;
+        padding: 2px 0 0 25px;
+        margin-left: -6px;
+    }
+    .slick-prev:before {
+        font-weight: normal;
+        font-size: 0.313em;
+        padding: 2px 0 0 25px;
+        margin-left: 6px;
+    }
+}
