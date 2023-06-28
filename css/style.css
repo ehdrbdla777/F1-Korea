@@ -1209,7 +1209,7 @@ header .inner > .sub-menu > .menu > li > .team .team-box .team-content .team-men
   }
   .car-ranking-all .car-ranking > .name > p:nth-child(1) {
     font-size: 1.125em;
-    padding-bottom: 5px;
+    padding-bottom: 8px;
   }
   .car-ranking-all .car-ranking > .name > p:nth-child(2) {
     font-size: 0.938em;
