@@ -1176,9 +1176,11 @@ header .inner > .sub-menu > .menu > li > .team .team-box .team-content .team-men
     width: 48.000em;
     height: 347px;
   }
+  .constructor #constructor-tab-content > .inner > .constructor-logo {
+    left: 160px;
+  }
   .constructor #constructor-tab-content > .inner > .constructor-logo > h2 {
-    font-size: 0.625em;
-    position: relative;
+    font-size: 2.500em;
   }
   .constructor #constructor-tab-content > .inner > .car-ranking-img {
     margin-top: 100px;
@@ -1581,14 +1583,14 @@ header .inner > .sub-menu > .menu > li > .team .team-box .team-content .team-men
     width: 368px;
   }
   .constructor #constructor-tab-content > .inner > .constructor-logo {
-    width: 152px;
+    width: 300px;
     height: 59px;
   }
   .constructor #constructor-tab-content > .inner > .constructor-logo > h2 {
-    font-size: 0.313em;
+    font-size: 1.563em;
     position: relative;
-    top: -20px;
-    right: 5%;
+    top: -40px;
+    right: 48%;
     text-align: center;
   }
   
