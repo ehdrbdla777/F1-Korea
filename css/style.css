@@ -1125,6 +1125,7 @@ header .inner > .sub-menu > .menu > li > .team .team-box .team-content .team-men
     width: 48.000em;
   }
   .ranking-bg {
+    background: url(../images/ranking_bg.png) no-repeat;
     width: 48.000em;
     height: 347px;
   }
