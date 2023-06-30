@@ -567,14 +567,17 @@ header .inner > .sub-menu > .menu > li > .team .team-box .team-content .team-men
   width: 100%;
   height: 630px;
 }
-
-.ranking #driver-tab-content > .inner > .top-driver-ranking > h2 {
+.driver-ranking-logo {
+  display: flex;
+  justify-content: center;
   position: relative;
-  color: #fff;
-  font-size: 100px;
   top: 70px;
-  left: 350px;
+} 
+.driver-ranking-logo > h2 {
+  font-size: 100px;
+  color: #fff;
 }
+
 .ranking .inner .top-driver-ranking .player-ranking-img {
   display: flex;
   justify-content: space-between;
@@ -715,11 +718,14 @@ header .inner > .sub-menu > .menu > li > .team .team-box .team-content .team-men
 .constructor-logo {
   width: 1300px;
   position: relative;
-  top: 40px;
-  left: 90px;
   height: 124px;
+  display: flex;
+  justify-content: center;
+  top: 60px;
+}
+.constructor-logo > h2 {
   color: #fff;
-  font-size: 80px;
+  font-size: 90px;
 }
 .car-ranking-all {
   position: relative;
@@ -1105,11 +1111,11 @@ header .inner > .sub-menu > .menu > li > .team .team-box .team-content .team-men
   }
   .tab-menu .inner > .list > li > .left-box {
     left: -30px;
-    bottom: 30px;
+    bottom: 25px;
   }
   .tab-menu .inner > .list > li > .right-box {
     right: 18px;
-    bottom: 30px;
+    bottom: 25px;
   }
 
   .tab-menu .inner > .list > li a {
@@ -1129,10 +1135,8 @@ header .inner > .sub-menu > .menu > li > .team .team-box .team-content .team-men
     width: 48.000em;
     height: 347px;
   }
-  .ranking #driver-tab-content > .inner > .top-driver-ranking > h2 {
-    font-size: 3.125em;
-    position: relative;
-    left: 27%;
+  .driver-ranking-logo > h2 {
+    font-size: 50px;
   }
   .ranking .tab-inner .top-driver-ranking .player-ranking-img{
     margin-top: 8.125em;
@@ -1176,14 +1180,17 @@ header .inner > .sub-menu > .menu > li > .team .team-box .team-content .team-men
     width: 48.000em;
     height: 347px;
   }
-  .constructor #constructor-tab-content > .inner > .constructor-logo {
-    left: 160px;
+  .constructor-logo {
+    width: 400px;
+    height: 63px;
+    left: 50%;
+    transform: translateX(-50%);
   }
   .constructor #constructor-tab-content > .inner > .constructor-logo > h2 {
-    font-size: 2.500em;
+    font-size: 40px;
   }
   .constructor #constructor-tab-content > .inner > .car-ranking-img {
-    margin-top: 100px;
+    margin-top: 150px;
   }
   .constructor #constructor-tab-content > .inner > .car-ranking-img > a > img {
     width: 11.188em;
@@ -1492,10 +1499,8 @@ header .inner > .sub-menu > .menu > li > .team .team-box .team-content .team-men
     width: 368px;
     height: 253px;
   }
-  .ranking #driver-tab-content > .inner > .top-driver-ranking > h2 {
-    font-size: 1.563em;
-    position: relative;
-    left: 23%;
+  .driver-ranking-logo > h2 {
+    font-size: 35px;
     top: 50px;
   }
   
@@ -1587,8 +1592,7 @@ header .inner > .sub-menu > .menu > li > .team .team-box .team-content .team-men
     height: 59px;
   }
   .constructor #constructor-tab-content > .inner > .constructor-logo > h2 {
-    font-size: 1.563em;
-    position: relative;
+    font-size: 1.875em;
     top: -40px;
     right: 48%;
     text-align: center;
