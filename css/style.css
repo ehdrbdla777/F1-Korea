@@ -187,7 +187,7 @@ header .inner .sub-menu .menu > li > .recency > .item > .recency-box > .recency-
 
 
 /* schedule area */
-.logo {
+.logo > p {
   color: #fff;
   font-size: 20px;
   position: relative;
@@ -218,9 +218,6 @@ header .inner .sub-menu .menu > li > .recency > .item > .recency-box > .recency-
   margin-right: 54px;
 }
 
-.schedule > .item > .schedule-box > .schedule-menu > .oncoming-logo1 {
-  color: #15151E;
-}
 .schedule > .item > .schedule-box > .schedule-menu > .schedule-text {
   padding: 5px;
   margin-top: 15px;
@@ -242,7 +239,11 @@ header .inner .sub-menu .menu > li > .recency > .item > .recency-box > .recency-
 .schedule > .item > .schedule-box > .schedule-menu > .schedule-text > span {
   position: relative;
   left: 180px;
-  bottom: 6px;
+  top: -33px;
+}
+.schedule > .item > .schedule-box > .schedule-menu > .schedule-text > .span3 {
+  position: relative;
+  top: 0px;
 }
 .schedule > .item > .schedule-box > .schedule-menu > .schedule-text > .span2 {
   position: relative;
@@ -1162,7 +1163,7 @@ header .inner > .sub-menu > .menu > li > .team .team-box .team-content .team-men
     margin-bottom: 0.313em;
   }
   .driver-ranking > .name > p:nth-child(2) {
-    top: 3px;
+    top: 9px;
   }
   .point {
     right: 2.500em;
