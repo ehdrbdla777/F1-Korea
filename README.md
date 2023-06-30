@@ -1,6 +1,6 @@
 [![F1-Korea](./images/header_logo.png)](https://github.com/ehdrbdla777/New-F1-Korea.git)
 
-[해당페이지로 이동](https://eloquent-crisp-543851.netlify.app/)
+[해당페이지로 이동](https://new-f1-korea.netlify.app/)
 
 # 프로젝트 명 : F1 Korea Codding
 
